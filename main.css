@@ -1,0 +1,344 @@
+body{
+    min-height: 100%;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+/* top banner section */
+#top{
+    background-image: url(images/bannerMain.jpg);
+    position: relative;
+
+}
+.top-overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5);
+    width: 100%;
+    height: 100%;
+}
+
+.menu{
+    padding-top: 40px;
+}
+
+.menu ul li{
+    margin: 0px 20px;
+}
+.menu ul li:nth-last-child(1){
+    margin-right: 0px;
+}
+
+.menu ul li a{
+    font-weight: 600;
+    color: #fff !important;
+}
+
+.bannerText{
+    color: #fff;
+    position: relative;
+    padding: 120px 160px 250px 160px;
+    text-align: center;
+
+}
+.bannerText h1{
+    font-size: 60px;
+}
+.bannerText p{
+    padding: 50px 152px;
+}
+
+.bannerBtn a{
+    border: 1px solid #fb414e;
+    padding: 10px 20px;
+    margin: 0px 10px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.bannerBtn a:nth-child(1){
+    background-color: #fb414e;
+    padding: 10px 32px;
+}
+
+
+/* service section */
+
+.serviceShort-item{
+    background-color: #fb414e;
+    padding: 75px 50px 70px;
+    color: #fff;
+}
+
+.serviceShort-item h4{
+    margin-top: 30px;
+}
+
+.serviceShort-item h4::after{
+    content: " ";
+    width: 130px;
+    height: 4px;
+    background-color: #fff;
+    display: block;
+    position: relative;
+    margin: 20px 0px;
+}
+
+.color1{
+    background-color: #484f53;
+}
+
+.color2{
+    background-color: #263027;
+}
+
+.serviceShort-area{
+    margin-top: -75px;
+    position: relative;
+}
+
+
+#handcraft{
+    margin: 30px 50px 50px 50px;
+    background-image: url(images/bannerdown.jpg);
+    padding: 100px 0px;
+}
+
+/* businessplan area */
+#businessplan{
+    margin: 30px 50px 50px 50px;
+    background-color: #263027;
+}
+ 
+#businessplan .container{
+    max-width: 1500px;
+}
+
+.businessplan-area{
+    padding: 75px;
+}
+
+.businessplancontent{
+    color: #fff;
+    padding-right: 100px;
+}
+
+.businessplancontent h2{
+    font-size: 42px;
+}
+
+.businessplancontent p{
+    margin: 50px 0;
+}
+
+.businessplancontent a{
+    border: 2px solid #fff;
+    text-decoration: none;
+    padding: 10px 25px;
+    color: white;
+}
+
+.businessplanimage{
+    text-align: center;
+}
+
+/* service section*/
+
+#service{
+    margin: 60px 50px 60px 50px;
+    background-color: #dedbdb;
+}
+
+#service h6{
+    color: #000;
+    font-weight: 600;
+}
+
+.serv1{
+    margin-bottom: 35px;
+    padding-right: 30px;
+}
+
+.serv2{
+    padding-right: 30px;
+}
+
+.serRght{
+    padding-right: 50px;
+}
+
+.serRght h2{
+    padding-right: 100px;
+    margin-bottom: 30px;
+}
+
+#service .container{
+    padding: 80px 0px;
+}
+
+/* classific */
+
+.classific{
+    margin: 30px 50px 50px 50px;
+}
+
+.classifimenu ul li a{
+    text-decoration: none;
+    color: #484f53;
+    text-transform: uppercase;
+}
+
+.classifimenu ul li{
+    list-style: none;
+    display: inline;
+    margin: 28px;
+}
+
+.classifimenu ul{
+    text-align: center;
+}
+
+.classifiimg img{
+    margin-bottom: 10px;
+}
+
+
+#clients{
+    margin: 60px 50px;
+    background-color: #f0efef;
+}
+.clintsshit h2{
+    font-size: 48px;
+    font-weight: 600;
+}
+.clintsshit p{
+    margin: 30px 0px 50px 0px;
+    color: #6f6f6f;
+}
+.clintsshit a{
+    text-decoration: none;
+    color: blue;
+    font-weight: 500;
+    padding: 10px 30px;
+    border: 1px solid #000;
+}
+.clintsimg{
+    position: relative;
+}
+.row{
+    padding: 25px;
+}
+
+#handcraft .top-handi p{
+    margin: 25px 0px;
+}
+#handcraft .top-handi h1{
+    font-size: 2.8rem;
+}
+/*bootstrapOverwrite*/
+.navbar-collapse {
+    flex-grow: 0;
+  }
+
+.serviceShort-item{
+    text-align: left !important;
+}
+
+.nav-item{
+    font-size: 1.2rem;
+}
+
+/* contact section*/
+
+.contactContant h2{
+    font-size: 3rem;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.contactContant{
+    text-align: right;
+    padding-left: 70px;
+}
+
+.contactForm input,.contactForm select,.contactForm textarea{
+    border-color: #000;
+}
+#contact{
+    margin: 30px 50px 50px 50px;
+}
+.contactForm button{
+    position: absolute;
+    width: 68%;
+    left: 16%;
+    background-color: #fb414e;
+    border-color: #fb414e;
+}
+.contactForm button:hover{
+    background-color: #fb414e;
+    border-color: #fb414e;
+}
+
+#footer{
+    background-color: #202b30;
+    color: #fff;
+}
+
+.social ul li a{
+    text-decoration: none;
+    color: #484f53;
+    text-transform: uppercase;
+}
+
+.social ul li{
+    list-style: none;
+    display: inline;
+    margin: 0px 25px 0px 0px;
+}
+
+.social ul{
+    padding-left: 0px;
+}
+
+.footerMenu ul li a{
+    text-decoration: none;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.footerMenu ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0px 25px 0px 0px;
+}
+
+.footerMenu ul li:nth-child(6){
+    margin-right: 0px;
+}
+
+.footerContact{
+    margin: 80px 0px;
+}
+
+.footerContact p:nth-child(2){
+    color: #b5b5b5;
+}
+
+.footerRight{
+    text-align: right;
+}
+
+.subscribe button{
+    background-color: #fb414e;
+    border-color: #fb414e;
+    color: #fff;
+}
+
+.subscribe{
+    margin: 65px 0px;
+}
